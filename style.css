@@ -1,7 +1,30 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(19, 82, 216);
 }
 header {
-    background-color: #258632;
+    background-color: #9b284e;
     color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 20%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
 }
